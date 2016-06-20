@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
+  <Identity Name="56367PatrickWu.MthBeta" Publisher="CN=C71A2322-7B67-48A9-A85E-8DDCE68FA3A7" Version="0.17.10223.0" />
+  <mp:PhoneIdentity PhoneProductId="19421cbc-002b-4c87-8c03-3d5f0dfbe869" PhonePublisherId="6a55e97d-b886-41c7-9e09-97f3e7318007" />
+  <Properties>
+    <DisplayName>Mαth Beta</DisplayName>
+    <PublisherDisplayName>Patrick Wu</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.1</OSMinVersion>
+    <OSMaxVersionTested>6.3.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Math.App">
+      <m3:VisualElements DisplayName="Mαth" Square150x150Logo="Assets\Logo.png" Square44x44Logo="Assets\SmallLogo.png" Description="Math" ForegroundText="light" BackgroundColor="transparent">
+        <m3:DefaultTile Wide310x150Logo="Assets\WideLogo.png" Square71x71Logo="Assets\Square71x71Logo.png">
+          <m3:ShowNameOnTiles>
+            <m3:ShowOn Tile="square150x150Logo" />
+            <m3:ShowOn Tile="wide310x150Logo" />
+          </m3:ShowNameOnTiles>
+        </m3:DefaultTile>
+        <m3:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="green" />
+      </m3:VisualElements>
+      <Extensions>
+        <Extension Category="windows.fileTypeAssociation">
+          <FileTypeAssociation Name="wpstudiodebug">
+            <Logo>Assets\book_stack.png</Logo>
+            <SupportedFileTypes>
+              <FileType>.wpstudiodebug</FileType>
+            </SupportedFileTypes>
+          </FileTypeAssociation>
+        </Extension>
+       
+      </Extensions>
+    </Application>
+  </Applications>
+</Package>

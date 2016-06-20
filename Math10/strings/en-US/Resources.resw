@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Awr.Text" xml:space="preserve">
+    <value>Answer:</value>
+  </data>
+  <data name="Bcs.Text" xml:space="preserve">
+    <value>Basics</value>
+  </data>
+  <data name="Calc.Text" xml:space="preserve">
+    <value>Cαlc</value>
+  </data>
+  <data name="Calcr.Content" xml:space="preserve">
+    <value>Calculator</value>
+  </data>
+  <data name="DC.Text" xml:space="preserve">
+    <value>Determinant Calculation*</value>
+  </data>
+  <data name="EF.Text" xml:space="preserve">
+    <value>Expanded Form:</value>
+  </data>
+  <data name="Fmla.Text" xml:space="preserve">
+    <value>Formulα</value>
+  </data>
+  <data name="FrS.Text" xml:space="preserve">
+    <value>Fraction Simplification</value>
+  </data>
+  <data name="GP.Content" xml:space="preserve">
+    <value>Graph Plotter*</value>
+  </data>
+  <data name="IMC.Text" xml:space="preserve">
+    <value>Inverse Matrix Calculation*</value>
+  </data>
+  <data name="Lethu.Text" xml:space="preserve">
+    <value>Linear Equations in Three Unknowns</value>
+  </data>
+  <data name="Letu.Text" xml:space="preserve">
+    <value>Linear Equations in Two Unknowns</value>
+  </data>
+  <data name="MM.Text" xml:space="preserve">
+    <value>Matrix Multiplication*</value>
+  </data>
+  <data name="or.Text" xml:space="preserve">
+    <value>Or</value>
+  </data>
+  <data name="Qeou.Text" xml:space="preserve">
+    <value>Quadratic Equation in One Unknown</value>
+  </data>
+  <data name="Slv.Content" xml:space="preserve">
+    <value>Solve</value>
+  </data>
+  <data name="SuS.Text" xml:space="preserve">
+    <value>Surd Simplification</value>
+  </data>
+  <data name="SV.Text" xml:space="preserve">
+    <value>Simplified Form:</value>
+  </data>
+  <data name="Vc.Text" xml:space="preserve">
+    <value>Vector Calculation*</value>
+  </data>
+  <data name="About.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="CG.Text" xml:space="preserve">
+    <value>Coordinate Geometry</value>
+  </data>
+  <data name="Clus.Text" xml:space="preserve">
+    <value>Caculus</value>
+  </data>
+  <data name="Cnt" xml:space="preserve">
+    <value>Complex Numbers</value>
+  </data>
+  <data name="Cn.Text" xml:space="preserve">
+    <value>Complex Numbers</value>
+  </data>
+  <data name="DenoErr" xml:space="preserve">
+    <value>Denominator cannot be 0!</value>
+  </data>
+  <data name="DevideErr" xml:space="preserve">
+    <value>Divisor cannot be 0!</value>
+  </data>
+  <data name="Geo.Text" xml:space="preserve">
+    <value>Geometry</value>
+  </data>
+  <data name="Logt" xml:space="preserve">
+    <value>Logarithm</value>
+  </data>
+  <data name="Log.Text" xml:space="preserve">
+    <value>Logarithm</value>
+  </data>
+  <data name="Mat.Text" xml:space="preserve">
+    <value>Matrix</value>
+  </data>
+  <data name="NoneInErr" xml:space="preserve">
+    <value>You have blanks missed!</value>
+  </data>
+  <data name="Polst" xml:space="preserve">
+    <value>Polynomials</value>
+  </data>
+  <data name="Pols.Text" xml:space="preserve">
+    <value>Polynomials</value>
+  </data>
+  <data name="Ppt" xml:space="preserve">
+    <value>Probability</value>
+  </data>
+  <data name="Pp.Text" xml:space="preserve">
+    <value>Probability</value>
+  </data>
+  <data name="Pwrt" xml:space="preserve">
+    <value>Powers</value>
+  </data>
+  <data name="Pwr.Text" xml:space="preserve">
+    <value>Powers</value>
+  </data>
+  <data name="Qet" xml:space="preserve">
+    <value>Quadratic Equations</value>
+  </data>
+  <data name="Qe.Text" xml:space="preserve">
+    <value>Quadratic Equations</value>
+  </data>
+  <data name="QeouErr" xml:space="preserve">
+    <value>Cofficient of x^2 cannot be 0!</value>
+  </data>
+  <data name="Radt" xml:space="preserve">
+    <value>Radicals</value>
+  </data>
+  <data name="Rad.Text" xml:space="preserve">
+    <value>Radicals</value>
+  </data>
+  <data name="Squt" xml:space="preserve">
+    <value>Squences</value>
+  </data>
+  <data name="Squ.Text" xml:space="preserve">
+    <value>Squences</value>
+  </data>
+  <data name="Trit" xml:space="preserve">
+    <value>Trigonometry</value>
+  </data>
+  <data name="Tri.Text" xml:space="preserve">
+    <value>Trigonometry</value>
+  </data>
+  <data name="Vtt" xml:space="preserve">
+    <value>Vectors</value>
+  </data>
+  <data name="Vt.Text" xml:space="preserve">
+    <value>Vectors</value>
+  </data>
+  <data name="ZeroErr" xml:space="preserve">
+    <value>Input cannot be 0!</value>
+  </data>
+  <data name="Aa.Text" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="Aat" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="La.Text" xml:space="preserve">
+    <value>Lateral Area</value>
+  </data>
+  <data name="Lat" xml:space="preserve">
+    <value>Lateral Area</value>
+  </data>
+  <data name="Pmtr.Text" xml:space="preserve">
+    <value>Perimeter</value>
+  </data>
+  <data name="Pmtrt" xml:space="preserve">
+    <value>Perimeter</value>
+  </data>
+  <data name="Sa.Text" xml:space="preserve">
+    <value>Surface Area</value>
+  </data>
+  <data name="Sat" xml:space="preserve">
+    <value>Surface Area</value>
+  </data>
+  <data name="Vm.Text" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="Vmt" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="Cc.Text" xml:space="preserve">
+    <value>Circle</value>
+  </data>
+  <data name="Cct" xml:space="preserve">
+    <value>Circle</value>
+  </data>
+  <data name="CGbc.Text" xml:space="preserve">
+    <value>Basic Law</value>
+  </data>
+  <data name="CGbct" xml:space="preserve">
+    <value>Basic Law</value>
+  </data>
+  <data name="Dtf.Text" xml:space="preserve">
+    <value>Double &amp; Triple Angles Formula</value>
+  </data>
+  <data name="Dtft" xml:space="preserve">
+    <value>Double &amp; Triple Angles Formula</value>
+  </data>
+  <data name="Dvt.Text" xml:space="preserve">
+    <value>Derivative</value>
+  </data>
+  <data name="Dvtt" xml:space="preserve">
+    <value>Derivative</value>
+  </data>
+  <data name="Ese.Text" xml:space="preserve">
+    <value>Ellipse</value>
+  </data>
+  <data name="Eset" xml:space="preserve">
+    <value>Ellipse</value>
+  </data>
+  <data name="Ghs.Text" xml:space="preserve">
+    <value>Graphs</value>
+  </data>
+  <data name="Ghst" xml:space="preserve">
+    <value>Graphs</value>
+  </data>
+  <data name="Hbc.Text" xml:space="preserve">
+    <value>Hyperbolic</value>
+  </data>
+  <data name="Hbct" xml:space="preserve">
+    <value>Hyperbolic</value>
+  </data>
+  <data name="Hpbl.Text" xml:space="preserve">
+    <value>Hyperbola</value>
+  </data>
+  <data name="Hpblt" xml:space="preserve">
+    <value>Hyperbola</value>
+  </data>
+  <data name="Id.Text" xml:space="preserve">
+    <value>Implicit Differentiation</value>
+  </data>
+  <data name="Idt" xml:space="preserve">
+    <value>Implicit Differentiation</value>
+  </data>
+  <data name="It.Text" xml:space="preserve">
+    <value>Inverse Trigonometry</value>
+  </data>
+  <data name="Itg.Text" xml:space="preserve">
+    <value>Intergration</value>
+  </data>
+  <data name="Itgt" xml:space="preserve">
+    <value>Intergration</value>
+  </data>
+  <data name="Itt" xml:space="preserve">
+    <value>Inverse Trigonometry</value>
+  </data>
+  <data name="Lmt.Text" xml:space="preserve">
+    <value>Limits</value>
+  </data>
+  <data name="Lmtt" xml:space="preserve">
+    <value>Limits</value>
+  </data>
+  <data name="Lot.Text" xml:space="preserve">
+    <value>Laws Of Trigonometry</value>
+  </data>
+  <data name="Lott" xml:space="preserve">
+    <value>Laws Of Trigonometry</value>
+  </data>
+  <data name="Lpe.Text" xml:space="preserve">
+    <value>Laplace</value>
+  </data>
+  <data name="Lpet" xml:space="preserve">
+    <value>Laplace</value>
+  </data>
+  <data name="Prbl.Text" xml:space="preserve">
+    <value>Parabola</value>
+  </data>
+  <data name="Prblt" xml:space="preserve">
+    <value>Parabola</value>
+  </data>
+  <data name="Tb.Text" xml:space="preserve">
+    <value>Basics</value>
+    <comment>In Trigonometry</comment>
+  </data>
+  <data name="Tbt" xml:space="preserve">
+    <value>Basics</value>
+    <comment>In Trigonometry</comment>
+  </data>
+</root>
