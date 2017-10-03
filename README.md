@@ -1,4 +1,5 @@
-# Math
+# Mαth
+![Maintenance](https://img.shields.io/maintenance/no/2016.svg?style=flat-square)
 Power Tools for calculating math. Since it is too conplicated for a person to complete, I decided to discontinue this app. The code is allowed to distribute freely.
 
 ### Licenses & Contributions
